@@ -1,0 +1,42 @@
+# Binaries for programs and plug-ins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built by `go test -c`
+*.test
+
+# Output of the go coverage tool, generated when using apply_coverprofile
+*.out
+*.prof
+coverage.txt
+
+# Dependency directories (only needed if you use directories instead of system-wide go mod)
+# vendor/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local / Environment secrets
+.env
+.env.local
+*.secret
+credentials.json
