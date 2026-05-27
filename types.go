@@ -33,6 +33,7 @@ type Part struct {
 	Text                string                      `json:"text,omitzero"`
 	MimeType            string                      `json:"mime_type,omitzero"`
 	URI                 string                      `json:"uri,omitzero"`
+	Path                string                      `json:"path,omitzero"`
 	Data                string                      `json:"data,omitzero"`
 	Signature           string                      `json:"signature,omitzero"`
 	Thought             *ThoughtContent             `json:"thought,omitzero"`
